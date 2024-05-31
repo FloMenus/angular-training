@@ -1,0 +1,22 @@
+<div class="car-card" [ngClass]="{ sold: car.isSold }">
+  <div class="car-card__img-and-content">
+    <div class="car-card__image">
+      <img src="https://via.placeholder.com/300" alt="Car Image" />
+    </div>
+    <div class="car-card__content">
+      <p class="car-card__title">{{ car.title }}</p>
+      <p class="car-card__price">{{ car.brand }}</p>
+      <p class="car-card__description">{{ car.description }}</p>
+    </div>
+  </div>
+  <div class="car-card__footer">
+    <button
+      (click)="sellCar()"
+      [disabled]="car.isSold"
+      class="car-card__button"
+    >
+      Buy Now
+    </button>
+  </div>
+  <div class="car-card__sold">Vendue: {{ car.isSold }}</div>
+</div>
