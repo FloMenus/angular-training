@@ -1,4 +1,4 @@
-import { Component, Input } from '@angular/core';
+import { Component, Input, Output, EventEmitter } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { Car } from '../../models/car.model';
 
@@ -15,7 +15,8 @@ export class CarCardComponent {
   })
   car: Car = new Car();
 
-  sellCar() {
-    this.car.isSold = true;
+  @Output() buyCar = new EventEmitter<Car>();
+  onBuyCar() {
+    this.buyCar.emit(this.car);
   }
 }

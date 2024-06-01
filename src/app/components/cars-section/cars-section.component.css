@@ -1,0 +1,22 @@
+.cars-section {
+  padding: 20px;
+}
+.section-title {
+  font-size: 28px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 600;
+  margin: 24px;
+  background-image: linear-gradient(90deg, #ff3d08, #e3029c);
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-text-fill-color: transparent;
+}
+
+.balance {
+  font-size: 20px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 600;
+  margin: 24px;
+  color: #ececec;
+}

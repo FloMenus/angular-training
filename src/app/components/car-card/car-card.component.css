@@ -1,7 +1,7 @@
 .car-card {
   height: 400px;
   width: 320px;
-  background-color: #ffffff;
+  background-color: #f2f2f2;
   border-radius: 8px;
   display: flex;
   flex-direction: column;
@@ -10,8 +10,16 @@
 }
 
 .sold {
-  background-color: darkgray;
+  background-color: #dedede;
   transition: background-color 0.2s;
+
+  .car-card__img-and-content .car-card__image img {
+    filter: grayscale(70%);
+    transition: filter 0.2s;
+  }
+  button {
+    background-color: darkgray;
+  }
 }
 
 .car-card__img-and-content {
@@ -19,13 +27,24 @@
 }
 
 .car-card__image {
-  width: 100%;
+  /* width: 100%; */
+  position: relative;
 }
 .car-card__image img {
   width: 100%;
   height: 200px;
   border-top-left-radius: 8px;
   border-top-right-radius: 8px;
+}
+
+.car-card__sold-msg {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: crimson;
+  font-size: 24px;
+  font-weight: bold;
 }
 
 .car-card__content {
@@ -49,4 +68,15 @@
 
 .car-card__footer {
   padding: 8px;
+}
+
+.car-card__button {
+  width: 100%;
+  padding: 8px;
+  background-color: #007bff;
+  color: #ffffff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.2s;
 }

@@ -1,22 +1,23 @@
 <div class="car-card" [ngClass]="{ sold: car.isSold }">
   <div class="car-card__img-and-content">
     <div class="car-card__image">
-      <img src="https://via.placeholder.com/300" alt="Car Image" />
+      <img [src]="car.picture" alt="Car Image" />
+      <div *ngIf="car.isSold" class="car-card__sold-msg">Vendue</div>
     </div>
     <div class="car-card__content">
       <p class="car-card__title">{{ car.title }}</p>
       <p class="car-card__price">{{ car.brand }}</p>
       <p class="car-card__description">{{ car.description }}</p>
+      <p class="car-card__price">{{ car.price }} €</p>
     </div>
   </div>
   <div class="car-card__footer">
     <button
-      (click)="sellCar()"
+      (click)="onBuyCar()"
       [disabled]="car.isSold"
       class="car-card__button"
     >
-      Buy Now
+      Acheter
     </button>
   </div>
-  <div class="car-card__sold">Vendue: {{ car.isSold }}</div>
 </div>

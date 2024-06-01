@@ -1,0 +1,10 @@
+<div class="bought-car-line">
+  <div class="bought-car-line__content">
+    <p class="bought-car-line__model">Modèle: {{ boughtCar.title }}</p>
+    <p class="bought-car-line__brand">Marque: {{ boughtCar.brand }}</p>
+    <p class="bought-car-line__price">Prix: {{ boughtCar.price }} €</p>
+  </div>
+  <button (click)="onCancelBuyCar()" class="bought-car-line__button">
+    Supprimer
+  </button>
+</div>

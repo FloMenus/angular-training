@@ -1,0 +1,9 @@
+<section class="cars-section">
+  <h2 class="section-title">Cars window shopping 🚗</h2>
+  <p class="balance">Balance = {{ balance }} €</p>
+  <app-cars-list [carsList]="cars" (buyCar)="buyCar($event)"></app-cars-list>
+  <app-bought-cars-list
+    [boughtCarsList]="boughtCars"
+    (cancelBuyCar)="cancelBuyCar($event)"
+  ></app-bought-cars-list>
+</section>

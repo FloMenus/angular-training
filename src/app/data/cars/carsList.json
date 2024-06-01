@@ -3,32 +3,44 @@
     {
       "title": "Clio 3",
       "brand": "Renault",
-      "description": "Clio 3 1.5 dci 85cv"
+      "description": "Clio 3 1.5 dci 85cv",
+      "picture": "https://upload.wikimedia.org/wikipedia/commons/3/39/Renault_Clio_front_20071102.jpg",
+      "price": 5000
     },
     {
       "title": "Megane 3",
       "brand": "Renault",
-      "description": "Megane 3 1.5 dci 110cv"
+      "description": "Megane 3 1.5 dci 110cv",
+      "picture": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bc/Renault_M%C3%A9gane_%28III%2C_Facelift%29_%E2%80%93_Frontansicht%2C_21._April_2013%2C_M%C3%BCnster.jpg/2560px-Renault_M%C3%A9gane_%28III%2C_Facelift%29_%E2%80%93_Frontansicht%2C_21._April_2013%2C_M%C3%BCnster.jpg",
+      "price": 8500
     },
     {
       "title": "208",
       "brand": "Peugeot",
-      "description": "208 1.6 hdi 92cv"
+      "description": "208 1.6 hdi 92cv",
+      "picture": "https://upload.wikimedia.org/wikipedia/commons/0/03/Peugeot_208_5door_facelift.jpg",
+      "price": 7240
     },
     {
       "title": "Yaris",
       "brand": "Toyota",
-      "description": "Yaris 1.4 d4d 90cv"
+      "description": "Yaris 1.4 d4d 90cv",
+      "picture": "https://upload.wikimedia.org/wikipedia/commons/2/29/Toyota_Yaris_1.0_VVT-i_Cool_%28XP130%29_%E2%80%93_Frontansicht%2C_18._Mai_2012%2C_Ratingen.jpg",
+      "price": 6999
     },
     {
       "title": "Civic",
       "brand": "Honda",
-      "description": "Civic 1.6 i-dtec 120cv"
+      "description": "Civic 1.6 i-dtec 120cv",
+      "picture": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/86/2017_Honda_Civic_EX_VTEC_CVT_1.0_Front.jpg/2560px-2017_Honda_Civic_EX_VTEC_CVT_1.0_Front.jpg",
+      "price": 12000
     },
     {
       "title": "A3",
       "brand": "Audi",
-      "description": "A3 1.6 tdi 105cv"
+      "description": "A3 1.6 tdi 105cv",
+      "picture": "https://upload.wikimedia.org/wikipedia/commons/5/51/Audi_A3_8V_1.4_TFSI_Ambiente_Misanorot.JPG",
+      "price": 14999
     }
   ]
 }

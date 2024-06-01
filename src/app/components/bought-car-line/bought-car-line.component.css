@@ -1,0 +1,19 @@
+.bought-car-line {
+  display: flex;
+  height: 60px;
+  width: 100%;
+  padding: 8px;
+  border-radius: 8px;
+  background-color: #f5f5f5;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.bought-car-line__content {
+  display: flex;
+  justify-content: space-between;
+}
+
+.bought-car-line__content p {
+  margin-right: 12px;
+}

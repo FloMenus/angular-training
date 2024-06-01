@@ -1,0 +1,10 @@
+<div class="bought-cars-list">
+  <h3 class="bought-cars-list__title">Voiture achetées</h3>
+  <div class="bought-cars-list__container">
+    <app-bought-car-line
+      *ngFor="let boughtCar of boughtCars"
+      [boughtCar]="boughtCar"
+      (cancelBuyCar)="onCancelBuyCar(boughtCar)"
+    />
+  </div>
+</div>

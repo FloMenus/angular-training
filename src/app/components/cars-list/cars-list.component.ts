@@ -16,4 +16,9 @@ export class CarsListComponent {
     alias: 'carsList',
   })
   cars: Car[] = new Array<Car>();
+
+  @Output() buyCar = new EventEmitter<Car>();
+  onBuyCar(car: Car) {
+    this.buyCar.emit(car);
+  }
 }

@@ -1,6 +1,9 @@
 <div class="cars-list">
-  <h1 class="title">Cars List</h1>
   <div class="cars-list__container">
-    <app-car-card *ngFor="let car of cars" [car]="car" />
+    <app-car-card
+      *ngFor="let car of cars"
+      [car]="car"
+      (buyCar)="onBuyCar(car)"
+    />
   </div>
 </div>
