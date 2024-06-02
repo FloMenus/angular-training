@@ -1,4 +1,16 @@
-<div class="header">
-  <h1 class="title">Angular Training</h1>
-</div>
-<app-cars-section></app-cars-section>
+<nav class="header">
+  <a class="link">
+    <h1 routerLink="/" routerLinkActive="active" class="title">
+      Angular Sandbox
+    </h1>
+  </a>
+  <ul class="link-container">
+    <li>
+      <a routerLink="/cars" routerLinkActive="active" class="link sublink"
+        >Cars
+      </a>
+    </li>
+  </ul>
+</nav>
+
+<router-outlet></router-outlet>
